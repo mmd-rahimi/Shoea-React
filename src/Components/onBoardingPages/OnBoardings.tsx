@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { OnBoarding1 } from "./OnBoarding1";
 import { OnBoarding2 } from "./OnBoarding2";
+import { OnBoarding3 } from "./OnBoarding3";
 
 export function OnBoardings() {
     const [page, setPage] = useState(0)
@@ -8,7 +9,7 @@ export function OnBoardings() {
         <>
           {page === 0 && <OnBoarding1 setPage={setPage} />}
           {page === 1 && <OnBoarding2 setPage={setPage} />}
-          {/* {page === 2 && <OnBoarding3-5 setPage={setPage} />} */}
+          {page === 2 && <OnBoarding3 setPage={setPage} />}
         </>
       );
 }
