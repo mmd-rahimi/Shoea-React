@@ -6,7 +6,7 @@ export function OnBoarding1({ setPage }) {
   }, 3000);
 
   return (
-    <div className="flex flex-col justify-between items-center gap-40 mt-32">
+    <div className="flex flex-col justify-between items-center gap-40 mt-56">
       <div>
         <img src="./shoea icon ob1.png" alt="" />
       </div>
