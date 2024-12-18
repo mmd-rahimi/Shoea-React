@@ -1,5 +1,5 @@
 
-export function OnBoarding4() {
+export function OnBoarding5() {
     return(
         <div className="h-screen flex flex-col items-center gap-6">
             <img className="h-[60%] w-screen" src="./public/p5-bg.png" alt="" />
